@@ -17,7 +17,7 @@ public class ClosestToZero {
 
     public static void main(String[] args) {
 
-        int[] nums = {3, 2, 5, 8, -5, -1, -2, 1, 9};
+        int[] nums = {3, 5, 8, -5, -1, -2, 9};
         int value = closestToZero(nums);
         System.out.println(value);
     }

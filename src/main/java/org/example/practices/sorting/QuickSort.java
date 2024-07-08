@@ -4,9 +4,8 @@ import java.util.Random;
 
 public class QuickSort {
      public static void printArray(int[] numbers){
-         for (int i = 0; i < numbers.length; i++) {
-             System.out.print(numbers[i]+" ");
-         }
+         for(int x:numbers) System.out.printf("%d ", x);
+
     }
     static void swap(int[] array, int a, int b){
          int temp = array[a];
@@ -49,7 +48,7 @@ public class QuickSort {
         return leftPointer;
     }
 
-    public static void main(String[] args) {
+    public static void main() {
 
         Random rand = new Random();
         int[] numbers = new int[10];

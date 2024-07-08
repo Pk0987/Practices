@@ -1,10 +1,9 @@
 package org.example.practices;
 
 import java.text.NumberFormat;
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class Dummy {
+public class InterestRate {
 
     private static void CalculateLoan(double totalLoanAmt, int totalYears, float interestRate) {
 

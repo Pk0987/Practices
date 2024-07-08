@@ -5,9 +5,7 @@ import java.util.Random;
 public class MergeSort {
 
     private static void printArray(int[] numbers){
-        for (int i = 0; i < numbers.length; i++) {
-            System.out.print(numbers[i]+" ");
-        }
+        for(int x: numbers) System.out.printf("%d ", x);
     }
     private static void mergeSort(int[] inputArray){
 
@@ -62,7 +60,7 @@ public class MergeSort {
     }
 
 
-    public static void main(String[] args) {
+    public static void main() {
 
         Random rand = new Random();
         int[] numbers = new int[10];
