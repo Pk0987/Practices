@@ -2,7 +2,7 @@ package org.example.practices;
 
 import java.util.Scanner;
 
-public class ReverseWords {
+public class ReverseString {
 
     public static String recursiveString(String s){
         if (s == null || s.length()<=1){
