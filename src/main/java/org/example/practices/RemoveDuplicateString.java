@@ -1,9 +1,8 @@
 package org.example.practices;
 
-public class Dummy {
+public class RemoveDuplicateString {
     public static void main() {
-        String str = "I lovie indlia";
-//        str = str.replaceAll(" ","");
+        String str = "poong kannan";
         char[] c = str.toLowerCase().toCharArray();
         String ans = "%s".formatted(c[0]);
         for (int i = 0; i < c.length; i++) {
